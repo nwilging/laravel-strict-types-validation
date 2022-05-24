@@ -126,6 +126,12 @@ class StrictTypesValidatorTest extends TestCase
                 ],
                 false,
             ],
+            'validation fails - empty parameters' => [
+                'attribute' => 'test',
+                'value' => '1',
+                'parameters' => [],
+                false,
+            ],
         ];
     }
 }
