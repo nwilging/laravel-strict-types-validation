@@ -31,7 +31,6 @@ class LaravelStrictValidationProviderTest extends TestCase
         $validator2 = Validator::make($failingData, $rules);
 
         $this->expectException(ValidationException::class);
-        $this->expectExceptionMessage('The test must be of type int');
 
         $this->assertFalse($validator1->fails());
         $this->assertTrue($validator2->fails());

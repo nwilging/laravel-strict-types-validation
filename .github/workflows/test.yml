@@ -18,6 +18,4 @@ jobs:
         with:
           php_version: ${{ matrix.php }}
       - name: Run Tests
-        run: |
-          sh .github/scripts/pre-test.sh
-          vendor/bin/phpunit --no-coverage
+        run: vendor/bin/phpunit --no-coverage

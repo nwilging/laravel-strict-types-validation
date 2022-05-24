@@ -4,4 +4,3 @@
 tests/html-coverage
 clover.xml
 .idea/
-composer.lock
