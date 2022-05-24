@@ -18,4 +18,4 @@ jobs:
         with:
           php_version: ${{ matrix.php }}
       - name: Run Tests
-        run: vendor/bin/phpunit --no-coverage
+        run: sudo vendor/bin/phpunit --no-coverage
