@@ -1,0 +1,6 @@
+/vendor/
+.env
+.phpunit.result.cache
+tests/html-coverage
+clover.xml
+.idea/
