@@ -8,6 +8,6 @@ jobs:
   run-tests:
     name: Tests
     uses: ./.github/workflows/test.yml
-#  run-coverage:
-#    name: Coverage
-#    uses: ./.github/workflows/coverage.yml
+  run-coverage:
+    name: Coverage
+    uses: ./.github/workflows/coverage.yml
