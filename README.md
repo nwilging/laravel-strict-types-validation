@@ -6,7 +6,7 @@
 [![License](http://poser.pugx.org/nwilging/laravel-strict-types-validation/license)](https://packagist.org/packages/nwilging/laravel-strict-types-validation)
 [![Total Downloads](http://poser.pugx.org/nwilging/laravel-strict-types-validation/downloads)](https://packagist.org/packages/nwilging/laravel-strict-types-validation)
 
-Ensures incoming form request data is a certain datatype.
+Ensures incoming form request data is of a certain datatype.
 
 ---
 
